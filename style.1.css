@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 33vh;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-image: url(https://rareearthoils.com/cdn/shop/files/SUMMER_IMAGE_LR_CO.jpg?v=1699160470&width=1080);
+    background-size: cover;
+    color: antiquewhite;
+    width: 220px;
+    height: 330px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.title {
+    transition: 900ms ease;
+    margin-top: 100%;
+    font-size: 20px;
+}
+
+.card:hover .title {
+    margin-top: 30%;
+}
+
+.card-info {
+    opacity: 0;
+    transition: 900ms;
+    padding-top: 10px;
+}
+
+
+.button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.card:hover .card-info {
+    opacity: 1;
+}
+
+.card1 {
+    background-image: url(https://images.unsplash.com/photo-1508162942367-e4dd4cd67513?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXV0dW1uJTIwZm9yZXN0fGVufDB8fDB8fHww);
+    background-size: cover;
+    color: antiquewhite;
+    width: 220px;
+    height: 330px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card1:hover .title {
+    margin-top: 30%;
+}
+
+.card1:hover .card-info {
+    opacity: 1;
+}
+
+.card2 {
+    background-image: url(https://wallpapercave.com/wp/wp8130312.jpg);
+    background-size: cover;
+    color: antiquewhite;
+    width: 220px;
+    height: 330px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card2:hover .title {
+    margin-top: 30%;
+}
+
+.card2:hover .card-info {
+    opacity: 1;
+}
+
+.card3 {
+    background-image: url(https://avatarfiles.alphacoders.com/360/360860.jpg);
+    background-size: cover;
+    color: antiquewhite;
+    width: 220px;
+    height: 330px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card3:hover .title {
+    margin-top: 30%;
+}
+
+.card3:hover .card-info {
+    opacity: 1;
+}
